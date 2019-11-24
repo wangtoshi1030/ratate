@@ -1,0 +1,48 @@
+
+body{
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container{
+  width: 500px;
+  height: 500px;
+  background-color: blue;
+  transform: rotateZ(90deg);
+  border-radius: 50%;
+  animation: kaiten 10s infinite;
+}
+
+.totation{animation: kaiten 10s infinite;}
+
+.top{
+  height: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+.box1{height: 50px; width: 50px; border-radius: 50%; background-color: yellow; font-size: 50px;}
+
+.bottom{
+  height: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.box2{height: 50px; width: 50px; border-radius: 50%; background-color: yellow; font-size: 50px;}
+.box3{height: 50px; width: 50px; border-radius: 50%; background-color: yellow; font-size: 50px;}
+
+
+/* @keyframes kaiten {
+  0%{transform: rotateZ(90deg);}
+  100%{transform: rotateZ(360deg);}
+}
+ */
+
+
+button{
+  margin: 10px;
+}
